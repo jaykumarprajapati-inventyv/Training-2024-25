@@ -11,3 +11,7 @@
 - **Series_5.js** - JS code for Series 5
 - **Sine.js** - JS code for Sine of an Angle
 - **Sum_of_1_to_N.js** - JS code for Sum of Numbers from 1 to N
+
+
+** Link of Figma **
+ > https://www.figma.com/board/JCQGoqPEcFRYoPilR5y9qi/Flowchart-of-Jay?node-id=0-1&p=f&t=dUPTGQkKNOJ4onow-0
