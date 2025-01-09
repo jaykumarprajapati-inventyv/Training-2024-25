@@ -31,3 +31,5 @@ The task demonstrates a simple tab-based interface that allows users to switch b
   
   - CSS3: For styling and layout.
 
+### License
+This project is licensed under the MIT License.
