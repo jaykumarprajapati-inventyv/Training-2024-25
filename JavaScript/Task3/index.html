@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Task 3</title>
+    <link rel="stylesheet" href="./styles.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-part">
+        <div class="profile-img">
+          <img
+            src="./assests/profile.jpeg"
+          />
+        </div>
+    
+        <div class="self-para">
+          <p>
+            Hello!! Myself Jay Prajapati. I'm pursuing Msc.(C.A. & I.T.) from KS
+            School Of Business Management. I'm Fullstack Developer, i've
+            knowledge of HTML, CSS, JavaScript, React JS, Node JS, Mongo DB,
+            Python and many other programming knowledge also. Right now i'm
+            doing my internship in Inventyv Software Services Pvt. Ltd.
+          </p>
+        </div>
+      </div>
+      <div class="form-part">
+        <div
+         class="card"
+        >
+          <div
+          class="tabs"
+          >
+            <!--Login form-->
+            <div class="form">
+              <details open name="form">
+                <summary>
+                 <b>Login</b>
+                </summary>
+                <form class="login-form" id="loginForm">
+                  <input
+                    placeholder="Enter Username"
+                    type="text"
+                    class="input-field"
+                    name="username"
+                    required
+                  />
+                  <input
+                    placeholder="Enter Password"
+                    type="password"
+                    class="input-field"
+                    required
+                  />
+                  <div class="submit-btn">
+                    <button type="submit" class="login-btn">Login</button>
+                  </div>
+                </form>
+              </details>
+            </div>
+
+            <!--Signup form-->
+            <div class="form">
+              <details name="form">
+                <summary
+                >
+                 <b>Signup</b>
+                </summary>
+              
+                <form class="signup-form" id="signupForm">
+                    <input
+                      placeholder="Enter Username"
+                      type="text"
+                      class="input-field"
+                      name="uname"
+                      required
+                    />
+                    <input
+                      placeholder="Enter Email Id"
+                      type="email"
+                      class="input-field"
+                      required
+                    />
+                    <input
+                      placeholder="Enter Password"
+                      type="password"
+                      class="input-field"
+                    />
+                  
+                  <div class="submit-btn">
+                    <button type="submit" class="signup-btn">Signup</button>
+                  </div>
+                </form>
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    //To get all input fields of signup form
+    const signupData=document.getElementById("signupForm");
+
+    //To get all input fields of login form
+    const loginData=document.getElementById("loginForm");
+    console.log("signupData",signupData)
+    console.log("loginData",loginData)
+
+    localStorage.setItem("userCount", 0);
+
+    //To get specific input field
+    const usernameField=signupData.querySelector('input[name="uname"]')
+    const emailField=signupData.querySelector('input[type="email"]')
+    const passwordField=signupData.querySelector('input[type="password"]')
+    const signupBtn=signupData.querySelector('button[type="submit"]')
+
+    //Get user data if otherwise get empty array
+    const userData=JSON.parse(localStorage.getItem('users')) || []
+    console.log("userData",userData)
+
+    //Show signup credentials of users and store in localstorage
+    signupBtn.addEventListener('click',function (e){
+      e.preventDefault();
+      alert(`Username:- ${usernameField.value}, EmailId:- ${emailField.value}, Password:${passwordField.value}`)
+
+       //Push all credentials in array to store in localstorage
+      userData.push({
+       userId:userData.length + 1,
+       userName:usernameField.value,
+       email:emailField.value,
+       password:passwordField.value
+      })
+
+      localStorage.setItem('users',JSON.stringify(userData))
+      localStorage.setItem('usercount',userData.length);
+      usernameField.value=""
+      emailField.value=""
+      passwordField.value=""
+    })
+
+     //To get specific input field
+   const username_Field=loginData.querySelector('input[name="username"]')
+   const password_Field=loginData.querySelector('input[type="password"]')
+   const loginBtn=loginData.querySelector('button[type="submit"]')
+
+   console.log("username_Field",username_Field)
+   console.log("loginBtn",loginBtn)
+
+    //Show login credentials of users and authorize to user
+   loginBtn.addEventListener('click',function (e){
+   e.preventDefault();
+
+   alert(`Username:- ${username_Field.value}, Password:- ${password_Field.value}`)
+
+   let flag=false;
+   for(let user of userData){
+    console.log("data",user)
+    if(user.userName==username_Field.value && user.password==password_Field.value){
+            flag = true;
+            sessionStorage.setItem("startTime", Date.now());
+            window.location.href = `home.html?userID=${user.userId}`;
+    }
+   }
+   if(!flag){
+    alert("Credentials are wrong!!")
+    username_Field.value=""
+    password_Field.value=""
+   }
+   })
+  </script>
+</html>

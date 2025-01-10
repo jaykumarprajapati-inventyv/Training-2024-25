@@ -9,6 +9,17 @@ Below is the folder structure of Repository:
 ```
 Training-2024-2025/                 # Root Folder
 │
+├── Bootstrap/                      # Folder containing Bootstrap task
+│   │
+│   ├── Task1/                     # Task1 folder
+│   │   ├── index.html               # HTML file 
+│   │   ├── styles.css               # CSS file
+│   │   ├── assests/                 # Images used
+│   │   │    ├── profile.jpeg  
+│   │   └── README.md               # Documentation of Task1
+│   │
+│   └── README.md                   # Folder structure of Bootstrap
+│
 ├── HTML-CSS/                       # Folder containing HTML and CSS tasks
 │   │
 │   ├── Task1/                     # Task_1 folder
@@ -19,6 +30,25 @@ Training-2024-2025/                 # Root Folder
 │   │   └── README.md               # Documentation of Task1
 │   │
 │   └── README.md                   # Folder structure of HTML-CSS
+│
+├──  JavaScript/                     # Folder containing JavaScript tasks
+│    │
+│    ├── Task1/                     # Task 1 folder
+│    │  ├── Array_manipulation.js     # JS file of Task 1
+│    │  └── README.md                 # Documentation for Task 1
+│    │
+│    ├── Task2/                     # Task 2 folder
+│    │   ├── Symbol_manipulation.js    # JS file of Task 2
+│    │   └── README.md                 # Documentation for Task 2
+│    │
+│    ├── Task3/                     # Task 3 folder
+│    │     ├── assests                 # Images contains
+│    │        ├── profile.jpeg           # Profile image
+│    │     ├── home.html               # Handling Session
+│    │     ├── index.html              # Login & Signup Form based on Tabs
+│    │     ├── styles.css              # Styling
+│    │     └── README.md               # Documentation for Task 3
+│    └── README.md                   # Folder structure of JavaScript
 │
 ├── Programs of Flowcharts/    
 │   ├── (1)Area_of_circle.js

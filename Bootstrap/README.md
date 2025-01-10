@@ -17,5 +17,5 @@ Bootstrap/                      # Folder containing Bootstrap tasks
 │   │   └── profile.jpeg         # profile image
 │   └── README.md               # Documentation of Task 1
 │
-└── README.md                   # Folder structure of bootstrap
+└── README.md                   # Folder structure of Bootstrap
 ```
