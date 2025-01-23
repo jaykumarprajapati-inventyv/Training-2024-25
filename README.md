@@ -9,6 +9,21 @@ Below is the folder structure of Repository:
 ```
 Training-2024-2025/                 # Root Folder
 │
+├── Advent Of Code/            # Folder for Advent of Code challenges
+│   ├── Day1/                  # Day 1 of Advent of Code
+│   │   ├── Part1              # Part 1 of Day 1
+│   │   └── Part2              # Part 2 of Day 1
+│   │   └── README.md          # Documentation for Day 1
+│   ├── Day2/                  # Day 2 of Advent of Code
+│   │   ├── Part1              # Part 1 of Day 2
+│   │   └── Part2              # Part 2 of Day 2
+│   │   └── README.md          # Documentation for Day 2
+│   ├── Day3/                  # Day 3 of Advent of Code
+│   │   ├── Part1              # Part 1 of Day 3
+│   │   └── Part2              # Part 2 of Day 3
+│   │   └── README.md          # Documentation for Day 3
+│   └── README.md              # Root documentation for Advent of Code
+│
 ├── Bootstrap/                      # Folder containing Bootstrap task
 │   │
 │   ├── Task1/                     # Task1 folder
@@ -65,7 +80,28 @@ Training-2024-2025/                 # Root Folder
 │   ├── (12)Sine.js
 │   ├── (13)Sum_of_1_to_N.js
 │   └── README.md
-│                        
+│   
+├── Rust/
+│   │
+│   ├── Rust Learning/  # Folder contains all basic and advance concepts of Rust.
+│   │    ├── .....
+│   │    └── README.md
+│   ├── Tasks/           # Folder contains assigned and self learning tasks.
+│   │     ├── Assigned Tasks    
+│   │     │  ├──  lifetime         # It explain concept of lifetime.
+│   │     │  ├──  rust_rangers     # It has total 18 levels which covered different different concepts of Rust as a Game.
+│   │     │  ├──  ....            
+│   │     │  └── README.md        # Documentation for Assigned Tasks folder.
+│   │     │
+│   │     ├── Personal Tasks   #  Folder contains Self learning tasks. 
+│   │     │   ├── .....
+│   │     │   └── README.md      # Documentation for Personal Tasks folder.
+│   │     │
+│   │     └── README.md        # Documentation of Tasks folder.
+│   │
+│   └── README.md       # Documentation for Rust Tasks folder.     
+│       
+└── README.md                      
 ├── LICENSE                         # License file for the project
 └── README.md                       # Folder structure of root folder
 ```
