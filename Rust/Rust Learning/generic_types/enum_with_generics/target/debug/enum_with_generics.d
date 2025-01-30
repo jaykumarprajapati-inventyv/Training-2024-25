@@ -1,0 +1,1 @@
+D:\Inventyv\Tasks\Training-2024-25\Rust\Rust\ Learning\generic_types\enum_with_generics\target\debug\enum_with_generics.exe: D:\Inventyv\Tasks\Training-2024-25\Rust\Rust\ Learning\generic_types\enum_with_generics\src\main.rs

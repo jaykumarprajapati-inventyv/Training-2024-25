@@ -3,6 +3,8 @@ struct Rectangle {
     width: u32,
 }
 
+//stuct has two types method:(1)Instance method(with &self) (2)Associated method(w/o self)
+
 //Ahi me 2 implement, method ma multiple paramter and mutability of self batavyu chhe.
 
 //Mutability of self je bydefault immutable hoi chhe.
@@ -10,6 +12,10 @@ impl Rectangle {
     fn area_of_rectangle(&mut self) -> u32 {
         self.length += 10;
         self.length * self.width
+    }
+
+    fn associated_func(l:i32,w:i32)->i32{
+        l*w
     }
 }
 
@@ -36,4 +42,8 @@ fn main() {
         "Is area2's fields's value are large?:{:?}",
         area1.checker_larger_or_not(&area2)
     );
+
+    //Assoicated func
+    let area=Rectangle::associated_func(50, 10);
+    println!("Area using Assoicated func. without self:{}",area)
 }

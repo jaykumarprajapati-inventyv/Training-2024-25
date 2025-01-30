@@ -1,0 +1,1 @@
+D:\Inventyv\Tasks\Training-2024-25\Rust\Rust\ Learning\traits\target\debug\traits.exe: D:\Inventyv\Tasks\Training-2024-25\Rust\Rust\ Learning\traits\src\main.rs D:\Inventyv\Tasks\Training-2024-25\Rust\Rust\ Learning\traits\src\trait_for_enum.rs
