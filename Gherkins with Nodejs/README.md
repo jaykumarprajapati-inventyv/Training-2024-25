@@ -8,11 +8,7 @@ This project is an automated testing setup using Gherkin with Node.js and Playwr
 This is the folder structure:
 
 ```
-<<<<<<< HEAD
-Gherkins with Nodejs/       # Root folder
-=======
 Gherkins with Nodejs/             # Root folder
->>>>>>> d604cc5b01def5d3dd2b954fc3b00dea48dddb1e
 │
 ├── login-app/               # Main project folder
 │   ├── features/            # Contains Gherkin feature files and step definitions
