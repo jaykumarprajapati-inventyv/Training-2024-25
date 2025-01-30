@@ -35,6 +35,33 @@ Training-2024-2025/                 # Root Folder
 │   │
 │   └── README.md                   # Folder structure of Bootstrap
 │
+│
+├── Gherkins with Nodejs/       # Root folder
+│   │
+│   │── login-app/               # Main project folder
+│   │    ├── features/            # Contains Gherkin feature files and step definitions
+│   │    │    ├── login.feature    # Feature file for login testing
+│   │    │    ├── step-definitions # Folder for step definitions
+│   │    │
+│   │    ├── node_modules/        # Dependencies 
+│   │    │    ├── ...             #Contains all dependencies
+│   │    │
+│   │    ├── test-results/        # Stores test run results
+│   │    │     ├── .last-run.json   # JSON file with last test run details
+│   │    │     ├── index.html       # Test report in HTML format
+│   │    │
+│   │    ├── tests/               # Contains test files
+│   │    │     ├── login.spec.js    # Playwright test file
+│   │    │
+│   │    ├── package-lock.json    # Auto-generated file for package dependencies
+│   │    ├── package.json         # Project configuration file
+│   │    ├── playwright.config.js # Playwright configuration file        
+│   │    ├── server.js            # Backend server script
+│   │    │
+│   │    └── README.md            # Documentation file
+│   │
+│   └── README.md                # General documentation for the project
+│
 ├── HTML-CSS/                       # Folder containing HTML and CSS tasks
 │   │
 │   ├── Task1/                     # Task_1 folder
