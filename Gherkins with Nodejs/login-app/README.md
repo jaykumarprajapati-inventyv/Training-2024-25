@@ -13,15 +13,14 @@ The Automation Testing Project is made by **Node.js** for server, **Playwright**
 ## 📂 Project Structure
 
 ```
-Gherkins with Nodejs/       # Root folder
-│
+
 ├── login-app/               # Main project folder
 │   ├── features/            # Contains Gherkin feature files and step definitions
 │   │   ├── login.feature    # Feature file for login testing
 │   │   ├── step-definitions/  # Folder for step definitions
 │   │
 │   ├── node_modules/        # Dependencies (not expanded)
-│   │    ├── .../              #Contains all dependencies
+│   │    ├── ...              #Contains all dependencies
 │   │
 │   ├── test-results/        # Stores test run results
 │   │   ├── .last-run.json   # JSON file with last test run details

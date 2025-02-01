@@ -1,15 +1,15 @@
 Feature: Login Button Automation
 
-  Scenario: Click the login button after entering right credentials
+  Scenario Outline: Attempt login with different credentials
     Given I open the login page
-    When I enter "jay" as username
-    And I enter "1234" as password
+    When I enter "<username>" as username
+    And I enter "<password>" as password
     And I click the "Login" button
-    Then I should see "Successfully logged in"
+    Then I should see "<expected_result>"
 
-  Scenario: Click the login button after entering wrong credentials
-   Given I open the login page
-   When I enter "raj" as username
-   When I enter "4567" as password
-   And I click the "Login" button
-   Then I should see "Incorrect credentials!!"
+  Examples:
+    | username | password | expected_result              |
+    | jay      | 1234     | Successfully logged in       |
+    | umang    | 1234     | Incorrect credentials!!      |
+    | jay      | 0000     | Incorrect credentials!!      |
+    | test     | wrong    | Incorrect credentials!!      |
