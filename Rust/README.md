@@ -15,13 +15,15 @@ Rust/
 ├── Rust Learning/  # Folder contains all basic and advance concepts of Rust.
 │   ├── .....
 │   ├── README.md
-├── Tasks/                # Folder contains assigned and self learning tasks.
-│   ├── Assigned Tasks
-│   │    ├── .....
-│   │    └── README.md 
-│   ├── Personal Tasks
-│   │    ├── .....
-│   │    └── README.md
+├── Tasks/              # Folder contains assigned and self learning tasks.
+│   ├── Assigned Tasks    # Folder contains Assigned tasks.                 
+│   │    ├──  lifetime         # It explain concept of lifetime.
+│   │    ├──  rust_rangers     # It has total 18 levels which covered different different concepts of Rust as a Game.
+│   │    ├──  ....            
+│   │    └── README.md     # Documentation for Assigned Tasks folder. 
+│   ├── Personal Tasks     # Folder contains Self learning tasks.         
+│   │    ├── .....         # Progerams which i did for self learning.
+│   │    └── README.md     # Documentation for Personal Tasks folder.
 │   └── README.md 
 └── README.md       # Documentation for Rust Tasks folder.                            
 ```

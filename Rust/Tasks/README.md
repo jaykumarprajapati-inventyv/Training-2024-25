@@ -15,7 +15,9 @@
 Tasks/                   # Folder contains assigned and self learning tasks.
     │                
     ├── Assigned Tasks   # Folder contains Assigned tasks.                 
-    │    ├── ....            # Progerams which assigned by Ellis Sir.
+    │    ├──  lifetime      # It explain concept of lifetime.
+    │    ├──  rust_rangers  # It has total 18 levels which covered different different concepts of Rust as a Game.
+    │    ├── ....            
     │    └── README.md       # Documentation for Assigned Tasks folder.
     │
     ├── Personal Tasks   # Folder contains Self learning tasks.         
