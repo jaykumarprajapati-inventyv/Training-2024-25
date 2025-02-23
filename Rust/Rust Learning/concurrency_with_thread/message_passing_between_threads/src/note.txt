@@ -1,0 +1,4 @@
+> let (sx, rx) = mpsc::channel();:- channel is always return sender and receiver in tuple mode.
+> We use "move" because the spawned thread needs ownership of sx (the sender).
+  > By default, closures borrow variables.
+  > But thread::spawn runs independently, so it must own sx to avoid borrowing issues.

@@ -1,0 +1,40 @@
+> In UTF-8 each character in a string is stored as a sequence of bytes, and it supports almost all languages and symbols worldwide.
+
+> format!() always takes references (&T) of parameters, not ownership.
+ > let age = 25;
+   let s = format!("Hello! You are {} years old.",age); //age's references
+ >It always returns "String" type.
+
+
+> To make String type's val:- (a)"Jay".to_string() or (b)String::from("initial contents");
+
+> Updtae:- (a) The "push_str" method takes a string slice because we don’t necessarily want to take ownership of the parameter.
+ > let mut s1 = String::from("foo");
+    let s2 = "bar";
+    s1.push_str(s2);
+    println!("s2 is {s2}"); //We can acces s2 bec. it didn't assign ownership but string slice
+    (b)push('J'):- It just usefull for single character.
+
+> Imp note:- Rule:- Jyare '+' no concate mate use karta hoi tyare, aeni left side no vari. ae aeni "ownership" apto hovo joie jyare right side no ae "references" apto hovo joie, nahito "err" aave.
+ >E.x.:-let s1 = String::from("Hello,");
+    let s2 = String::from("world!");
+    let s3 = s1 + &s2; 
+
+ > Bec. '+' ae "add" no use kare chhe,je "fn add(self, s: &str) -> String { }" chhe.
+ > s2 no references ae s1 ma add thai chhe.
+ > Ahi "s2" ae "&String" type no chhe je, '+' ma add karta te "&s2[..](string slice)" banse, bec. add() ne "s2" ae "&str" type no joie chhe.
+> Aa "deref coercion" thi automatic "&str" ma convert thase.
+
+>Imp note:- If you try to access parts of a String using indexing syntax in Rust, you’ll get an error. 
+  >     let s1 = String::from("hello");
+        let h = s1[0];
+>Bec. Even though English characters are 1 byte, Rust does not allow direct indexing (s1[0]) on String, because Rust strings are UTF-8 encoded and indexing by a single number is unsafe.
+> Imp note:- In Rust, even English, hindi and other languages characters use UTF-8, not ASCII way to store.
+   let english = "Hello";
+  > Aanu ascii:- [72, 101, 108, 108, 111] // Each char = 1 byte  
+
+niche na example mujab
+   let english = "Hello";         // 5 bytes (each char = 1 bytes)
+   let hindi = "नमस्ते";           // 18 bytes (each char = 3 bytes)
+   let russian = "Привет";       // 12 bytes (each char = 2 bytes)
+>Solu.:- char(),bytes() and range() no use karay.

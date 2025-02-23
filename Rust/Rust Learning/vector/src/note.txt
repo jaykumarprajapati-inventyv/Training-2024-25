@@ -1,0 +1,5 @@
+Here, new() is associated func of vec. and vec. is generic type,that can take any type of val. and it can be grow and shrink.
+
+> get() always return &Option<T> in that Some and None. If index has val. then it'll return Some val, otherwise it doesn't throw to error but return to None.
+
+ Note:(a)If we assign first elem. as int type then other elem. are should be int type.

@@ -1,0 +1,14 @@
+(1) What is packages and crate with its types?
+(2) Export Code from a Crate:- 
+    > The "pub" keyword makes functions, structs, and modules available outside the crate.
+    > pub mod (super_keyword), pub use
+
+(3) Import Code from Another Crate:-
+    > By using 
+      (a) mod (outer_module in main)
+      (b) use (use_as_in main )
+      (c) (alias) use std::collections::HashMap as Map;
+      (d) use std::io; // for standard library imports.
+      (e) super keyword 
+      (f) Selective Importing:- use std::io::{self, Write};
+      (g) External dependencies through like rand.

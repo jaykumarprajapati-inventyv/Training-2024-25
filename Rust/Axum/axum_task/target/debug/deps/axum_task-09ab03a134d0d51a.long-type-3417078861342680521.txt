@@ -1,0 +1,1 @@
+axum::middleware::FromFn<fn(axum::extract::State<{type error}>, axum::http::request::Parts, {type error}) -> impl Future<Output = Result<{type error}, {type error}>> {auth_middleware::<_>}, (), Route, _>

@@ -1,0 +1,9 @@
+> By using static, func. will return reference so we can access outside of the func, it means in main func. also.
+> Use cases of "return" keyword at return time.
+  > E.x.:- 
+    fn solution(a: &String, b: &String) -> &String {
+       if a.len() > b.len() {
+         return &a; //If we don't write "return" before of it,it'll be return "Jay" not "Prajapati",bec. it'll be consider just as one statement,not an expression.
+       }
+       &b  
+}

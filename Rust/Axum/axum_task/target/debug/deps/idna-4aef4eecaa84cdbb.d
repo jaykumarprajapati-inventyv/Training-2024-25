@@ -1,0 +1,10 @@
+D:\Inventyv\Tasks\Training-2024-25\Rust\Axum\axum_task\target\debug\deps\libidna-4aef4eecaa84cdbb.rmeta: C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\lib.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\deprecated.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\punycode.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\uts46.rs
+
+D:\Inventyv\Tasks\Training-2024-25\Rust\Axum\axum_task\target\debug\deps\libidna-4aef4eecaa84cdbb.rlib: C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\lib.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\deprecated.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\punycode.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\uts46.rs
+
+D:\Inventyv\Tasks\Training-2024-25\Rust\Axum\axum_task\target\debug\deps\idna-4aef4eecaa84cdbb.d: C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\lib.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\deprecated.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\punycode.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\uts46.rs
+
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\lib.rs:
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\deprecated.rs:
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\punycode.rs:
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\uts46.rs:

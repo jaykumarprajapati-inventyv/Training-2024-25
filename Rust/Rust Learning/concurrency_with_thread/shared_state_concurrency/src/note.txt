@@ -1,0 +1,14 @@
+Mutex(Mutual Exclusion):- It is used to protect shared data in multi-threaded programs, ensuring only one thread can access or modify the data at a time.
+ > Mutex uses lock system, so when we want to access,modify so we've to lock on that thread and when we'll finish then we've to unlock to that.
+
+>If we want to modify the main thread's data in a spawned thread, we must use Mutex to ensure safe access and prevent data races.
+
+>Data races means:- Two threads try to change the same data at the same time.
+ > The result is unpredictable and incorrect.
+
+** More About Mutex **
+1️⃣ Mutex<T> is a smart pointer that safely manages shared data.
+2️⃣ Calling .lock() returns a special smart pointer called MutexGuard.
+3️⃣ MutexGuard automatically unlocks the mutex when it goes out of scope.
+4️⃣ It uses Deref, so thats why we can modify to data.
+5️⃣ Since unlocking happens automatically, we don’t have to manually unlock, reducing mistakes.

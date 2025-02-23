@@ -1,0 +1,9 @@
+D:\Inventyv\Tasks\Training-2024-25\Rust\Axum\axum_task\target\debug\deps\libsocket2-1405963e3f76ef2b.rmeta: C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\lib.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sockaddr.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\socket.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sockref.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sys\windows.rs
+
+D:\Inventyv\Tasks\Training-2024-25\Rust\Axum\axum_task\target\debug\deps\socket2-1405963e3f76ef2b.d: C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\lib.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sockaddr.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\socket.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sockref.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sys\windows.rs
+
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\lib.rs:
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sockaddr.rs:
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\socket.rs:
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sockref.rs:
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sys\windows.rs:

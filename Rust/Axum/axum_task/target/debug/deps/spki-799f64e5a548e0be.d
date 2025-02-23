@@ -1,0 +1,10 @@
+D:\Inventyv\Tasks\Training-2024-25\Rust\Axum\axum_task\target\debug\deps\libspki-799f64e5a548e0be.rmeta: C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\lib.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\algorithm.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\error.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\spki.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\traits.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\../README.md
+
+D:\Inventyv\Tasks\Training-2024-25\Rust\Axum\axum_task\target\debug\deps\spki-799f64e5a548e0be.d: C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\lib.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\algorithm.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\error.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\spki.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\traits.rs C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\../README.md
+
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\lib.rs:
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\algorithm.rs:
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\error.rs:
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\spki.rs:
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\traits.rs:
+C:\Users\Jaykumar\ Prajapati\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spki-0.7.3\src\../README.md:

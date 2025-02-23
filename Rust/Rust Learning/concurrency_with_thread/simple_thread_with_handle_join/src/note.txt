@@ -1,0 +1,18 @@
+1️⃣ Why does the output change in each run?
+> The spawned thread and the main thread run concurrently. Their execution order is not fixed because the OS schedules them differently each time.
+
+2️⃣ Role of thread::sleep?
+> It pauses execution for a given time (1 second here).
+> This allows the other thread to execute while the current one is waiting.
+
+3️⃣ Why does the main thread run first, even after thread::spawn?
+> thread::spawn starts a new thread, but it does not wait for it to finish.
+> The main thread continues execution immediately while the spawned thread runs in the background.
+
+4️⃣ Why does the spawned thread only print up to 4, even though it loops till 10?
+> The main thread finishes first (after printing up to 4).
+> Since the main thread exits, all child threads are terminated immediately.
+> The spawned thread doesn’t get a chance to complete its loop.
+
+> Solution:- handle.join().unwrap(); // It'll wait till spawn thread is finished.
+

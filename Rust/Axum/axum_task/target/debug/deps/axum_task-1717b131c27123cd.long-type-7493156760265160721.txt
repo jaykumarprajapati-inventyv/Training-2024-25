@@ -1,0 +1,1 @@
+axum::middleware::FromFn<fn(axum::extract::State<{type error}>, axum::http::Request<Body>, Next) -> impl Future<Output = Result<Response<Body>, StatusCode>> {auth_middleware}, Pool<MySql>, Route, _>

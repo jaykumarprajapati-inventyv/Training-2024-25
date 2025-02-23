@@ -1,0 +1,1 @@
+D:\Inventyv\Tasks\Training-2024-25\Rust\Rust\ Learning\Packages_Modules_Crates\external_crate\target\debug\external_crate.exe: D:\Inventyv\Tasks\Training-2024-25\Rust\Rust\ Learning\Packages_Modules_Crates\external_crate\src\main.rs

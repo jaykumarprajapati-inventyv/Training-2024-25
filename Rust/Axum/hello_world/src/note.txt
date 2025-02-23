@@ -1,0 +1,51 @@
+> use axum::{routing::get, Router}; :- Router banavine routing karva and "get" ae req. method chhe,je data ne fetch karva mate chhe.
+
+> use std::net::SocketAddr; :- "SocketAddr" ae tamau ip address and port le chhe.
+
+> use tokio::net::TcpListener; :- "TcpListener" ae request ne listen karva mate.Tcp connection bane.
+
+> let app: Router = Router::new().route("/", get(|| async { "Hello, World!!" }));
+ > let app: Router:- Creates a Router named app to handle HTTP requests.
+ > Router::new():- Creates a new empty router.
+ > .route("/", get(...)):- Get nu route(Home page), 
+ > get(|| async { "Hello, World!!" }):- 
+   🔹 get(...) handles GET requests.
+   🔹 || is a closure (anonymous function).
+   🔹 async { "Hello, World!!" } is the async response function.
+
+
+> let addr = SocketAddr::from(([0, 0, 0, 0], 3000));
+ > 1️⃣ let addr =
+🔹 Creates a variable addr to store the server's address.
+
+2️⃣ SocketAddr::from(...)
+🔹 Converts the given IP and port into a socket address that Axum can use.
+
+3️⃣ ([0, 0, 0, 0], 3000)
+🔹 0.0.0.0 → Allows the server to accept connections from any device (local & network).
+🔹 3000 → The port number where the server will listen for requests.
+
+4️⃣ Why [0, 0, 0, 0] instead of "0.0.0.0"?
+🔹 [0, 0, 0, 0] is a Rust array representing an IPv4 address.
+🔹 It ensures type safety instead of using a plain string.
+
+
+> let listener = TcpListener::bind(addr).await.unwrap();
+1️⃣ let listener =
+🔹 Creates a variable listener to listen for incoming connections.
+
+2️⃣ TcpListener::bind(addr)
+🔹 Binds (attaches) the server to the given address (addr) so it can receive requests.
+
+3️⃣ .await
+🔹 Since binding is an async operation, await ensures it completes before moving forward.
+
+4️⃣ .unwrap()
+🔹 If binding fails, unwrap() will panic (crash) and show an error message.
+
+> axum::serve(listener, app).await.unwrap();
+ >🔹 Starts the Axum server using listener (which is waiting for requests) and app (which contains routes).
+ > Imp note:- serve() na parameter ma pehlu always "listener" j aave.
+
+
+

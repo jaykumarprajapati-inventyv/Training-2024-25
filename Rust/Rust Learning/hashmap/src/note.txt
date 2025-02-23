@@ -1,0 +1,26 @@
+Hashmap:-
+
+
+> Aa prelude ma nathi atle aene import karvu padse.
+
+** Accessing Values in a Hash Map **
+ > vector ni jem "get()" ae "Option<T,V>" ma "Some() and None" aape chhe, jene "match", "unwrap() or unwrap_or()" pn handle kari shakay.
+ 
+ > Ahi get ma always reference apay chhe, ae pn tamrai key je type ni hoi ae type no j aem. E.x.:- Code ma me roll_no name no vari. je "String" banavyo chhe, pn aeni key ae me "&str" ni banai chhe,to key no type "&str" chhe,atle reference ae "&str" no joi atle me "as_str()"thi convert karyu chhe.
+
+ > The get method returns an "Option<&V>" but ahi "&V" atle value no type, pn jo mare "Option<V>" w/o reference joiti hoi to niche mujab.
+   > .copied(): Converts Option<&i32> to Option<i32> by copying the value.
+
+> unwrap_or(0):- get() thi val. na made to "None" badle kaik return karva.
+
+
+> entry():- Jo je te name ni key exist nathi to ae mujab key-value banava mate. Jo hse to ignore thase.
+
+> or_insert():- Key-val. na hoi to val. ma assign karva. The or_insert method returns a mutable reference (&mut V) to the value for the specified key. 
+
+>split_whitespace():- Aa whitespace thi alag kare word ne.
+
+Note:-(a)Je pehli Key & Val. pair nakhi aej agad badhani hovi joie.Aane "homogeneous" kehvay.
+(b)Jo same name ni key hase to first vadi override thai jase.
+(c)Jov key and val. na vari. banavine jo hashmap ma pass karo tyare jo reference aapo to hashmap ma insert karay pasi pn access kari sakay,bec. ae ownership nathi aptu.
+(d)Jo aekli key banavine ne value na insert kari to ae err. nakhse.

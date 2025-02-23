@@ -1,0 +1,1 @@
+fn(HeaderMap, Arc<AppState>) -> impl Future<Output = Result<axum::Json<HashMap<&'static str, std::string::String>>, StatusCode>> {secure_handler}
