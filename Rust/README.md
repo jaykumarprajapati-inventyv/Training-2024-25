@@ -20,7 +20,7 @@ Rust/
 │   ├── README.md
 ├── Tasks/              # Folder contains assigned and self learning tasks.
 │   ├── Assigned Tasks    # Folder contains Assigned tasks.                 
-│   │    ├──  lifetime         # It explain concept of lifetime.
+│   │    ├──  user_thread      # It explain concept about multiple threads.
 │   │    ├──  rust_rangers     # It has total 18 levels which covered different different concepts of Rust as a Game.
 │   │    ├──  ....            
 │   │    └── README.md     # Documentation for Assigned Tasks folder. 

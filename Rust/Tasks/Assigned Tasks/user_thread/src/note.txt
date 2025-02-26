@@ -1,0 +1,18 @@
+> Use .read():- Here, multiple threads can access/read to data without modifying it.
+> Use .write():- Here, just single thread can write to data.
+> Both can usefull for vector,i32,f64 or any type but we should use of it when we're using multi-thread concept, in single thread concept we don't require to use of it.
+
+> let users: Arc<RwLock<Vec<_>>> = Arc::new(RwLock::new(vec![]));
+  > "RwLock":- vector ma at a time single thread write and multiple thread read kari shake ae mate aano use karyo.
+  > "Arc":- Arc (Atomic Reference Counting) lets multiple threads access the same value safely.
+     > It ensures only one thread modifies it at a time when using RwLock.
+
+> Arc::new(RwLock::new()):- You can use Arc::new(RwLock::new(...)) with any type like i32, f64, String, &str, Vec<T>, etc.
+
+> remove(index):- It remove value of given index's value.
+
+>  match stop_program.join() {
+        Ok(_) => println!("We're exited from all threads!!"),
+        Err(_) => println!("We crossed 100 length!!"),
+ }
+ >Here, we've used "join()" bec. it waits for a thread to finish execution before continuing the main thread.
