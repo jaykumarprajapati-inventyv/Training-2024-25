@@ -92,6 +92,20 @@ Training-2024-2025/                 # Root Folder
 │    │     └── README.md               # Documentation for Task 3
 │    └── README.md                   # Folder structure of JavaScript
 │
+├── LLM Based Chat-App/              # Folder for Chatbot App
+│   ├── backend/                          
+│   │   ├── .env                        # API Key Storage 
+│   │   ├── server.js                   # Express Server   
+│   │                                       
+│   ├── frontend/                         
+│   │   ├── index.html                  # Chat UI
+│   │   ├── script.js                   # Frontend Logic
+│   │   ├── style.css                   # Styling
+│   │                                       
+│   ├── package-lock.json               # Lock Dependencies  
+│   ├── package.json                    # Dependencies        
+│   ├── README.md                       # Documentation 
+│
 ├── Programs of Flowcharts/    
 │   ├── (1)Area_of_circle.js
 │   ├── (2)Factorial_of_number.js
@@ -115,7 +129,7 @@ Training-2024-2025/                 # Root Folder
 │   │    └── README.md
 │   ├── Tasks/           # Folder contains assigned and self learning tasks.
 │   │     ├── Assigned Tasks    
-│   │     │  ├──  lifetime         # It explain concept of lifetime.
+│   │     │  ├──  user_thread   # It explain concept of multiple threads (Task by Rahul Motiyani).
 │   │     │  ├──  rust_rangers     # It has total 18 levels which covered different different concepts of Rust as a Game.
 │   │     │  ├──  ....            
 │   │     │  └── README.md        # Documentation for Assigned Tasks folder.
