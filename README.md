@@ -135,7 +135,8 @@ Training-2024-2025/                 # Root Folder
 │   │     │  └── README.md        # Documentation for Assigned Tasks folder.
 │   │     │
 │   │     ├── Personal Tasks   #  Folder contains Self learning tasks. 
-│   │     │   ├── .....
+│   │     │   ├── basic_programs # Basic practice program.
+│   │     │   ├── own_product  # Authentication and Product management.
 │   │     │   └── README.md      # Documentation for Personal Tasks folder.
 │   │     │
 │   │     └── README.md        # Documentation of Tasks folder.
