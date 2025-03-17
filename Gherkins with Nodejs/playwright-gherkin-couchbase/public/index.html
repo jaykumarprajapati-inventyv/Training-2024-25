@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test Reports</title>
+    <script>
+        async function fetchReport() {
+            const response = await fetch('/report');
+            const data = await response.json();
+            document.getElementById("report").innerText = JSON.stringify(data, null, 2);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="fetchReport()">Fetch Test Report</button>
+    <pre id="report"></pre>
+</body>
+</html>

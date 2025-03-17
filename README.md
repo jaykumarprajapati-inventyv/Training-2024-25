@@ -36,31 +36,54 @@ Training-2024-2025/                 # Root Folder
 │   └── README.md                   # Folder structure of Bootstrap
 │
 │
-├── Gherkins with Nodejs/       # Root folder
+├── Gherkins with Nodejs/             # Root folder
+│   ├── login-app/               # Main project folder
+│   │     ├── features/            # Contains Gherkin feature files and step definitions
+│   │     ├── login.feature    # Feature file for login testing
+│   │     ├── step-definitions/  # Folder for step definitions
+│   │     │   ├── .../              #Contains all dependencies
+│   │     ├── test-results/        # Stores test run results
+│   │     ├── .last-run.json   # JSON file with last test run details
+│   │     ├── index.html       # Test report in HTML format
+│   │     ├── tests/               # Contains test files
+│   │     ├── login.spec.js    # Playwright test file
+│   │     ├── package-lock.json    # Auto-generated file for package dependencies
+│   │     ├── package.json         # Project configuration file
+│   │     ├── playwright.config.js # Playwright configuration file        
+│   │     ├── server.js            # Backend server script 
+│   │     └── README.md             # Documentation file  
 │   │
-│   │── login-app/               # Main project folder
-│   │    ├── features/            # Contains Gherkin feature files and step definitions
-│   │    │    ├── login.feature    # Feature file for login testing
-│   │    │    ├── step-definitions # Folder for step definitions
-│   │    │
-│   │    ├── node_modules/        # Dependencies 
-│   │    │    ├── ...             #Contains all dependencies
-│   │    │
-│   │    ├── test-results/        # Stores test run results
-│   │    │     ├── .last-run.json   # JSON file with last test run details
-│   │    │     ├── index.html       # Test report in HTML format
-│   │    │
-│   │    ├── tests/               # Contains test files
-│   │    │     ├── login.spec.js    # Playwright test file
-│   │    │
-│   │    ├── package-lock.json    # Auto-generated file for package dependencies
-│   │    ├── package.json         # Project configuration file
-│   │    ├── playwright.config.js # Playwright configuration file        
-│   │    ├── server.js            # Backend server script
-│   │    │
-│   │    └── README.md            # Documentation file
+│   ├── playwright-gherkin-couchbase/     # Project for Playwright with Couchbase & TiKV
+│   │     ├── features/                          # Contains Gherkin feature files
+│   │     ├── playwright-report/                 # Playwright test reports
+│   │     ├── public/                            # Public assets (if any)
+│   │     ├── test-results/                      # Stores test run results
+│   │     ├── package-lock.json                  # Auto-generated package file
+│   │     ├── package.json                       # Project dependencies & configuration
+│   │     ├── playwright.config.js               # Playwright configuration file
+│   │     ├── results.json                        # Test execution results
+│   │     ├── server.js                           # Server-side script
+│   │     ├── storeReport.js                      # Script to store reports
 │   │
-│   └── README.md                # General documentation for the project
+│   ├── playwright-gherkin-mongo/              # Project for Playwright with MongoDB
+│   │      ├── features/                          # Contains Gherkin feature files
+│   │      ├── models/                            # Database models
+│   │      ├── playwright-report/                 # Playwright test reports
+│   │      ├── public/                            # Public assets (if any)
+│   │      ├── reports/                           # Stores detailed test reports
+│   │      ├── test-results/                      # Stores test run results
+│   │      ├── .env                               # Environment variables
+│   │      ├── cucumber.js                        # Cucumber configuration file
+│   │      ├── db.js                              # Database connection file
+│   │      ├── package-lock.json                  # Auto-generated package file
+│   │      ├── package.json                       # Project dependencies & configuration
+│   │      ├── playwright.config.js               # Playwright configuration file
+│   │      ├── server.js                          # Server-side script
+│   │      ├── storeReport.js                     # Script to store reports
+│   │      ├── test-results.html                   # Test results in HTML format
+│   │      ├── test-results.json                   # Test results in JSON format
+│   └── README.md                              # Project documentation
+│
 │
 ├── HTML-CSS/                       # Folder containing HTML and CSS tasks
 │   │

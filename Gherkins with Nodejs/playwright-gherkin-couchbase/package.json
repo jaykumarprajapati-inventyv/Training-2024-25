@@ -1,0 +1,23 @@
+{
+  "name": "playwright-gherkin-couchbase-tikv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js features --require features/step-definitions/*.steps.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.50.1",
+    "playwright": "^1.50.1"
+  },
+  "dependencies": {
+    "couchbase": "^4.4.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "type": "module"
+}

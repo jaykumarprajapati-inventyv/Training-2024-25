@@ -1,0 +1,43 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Report</title>
+  <script>
+    async function getReport() {
+      const response = await fetch('http://localhost:3001/report');
+      const report = await response.text();
+      document.getElementById('report').innerHTML = report;
+    }
+  </script>
+</head>
+<body>
+  <h1>Click to View Latest Test Report</h1>
+  <button onclick="getReport()">Get Report</button>
+  <div id="report"></div>
+</body>
+</html> -->
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playwright Report</title>
+  <script>
+    // Function to trigger the API call and fetch the report
+    async function fetchReport() {
+      const response = await fetch('/generate-report');
+      if (response.ok) {
+        window.location.href = '/report'; // Redirect to the Playwright test report
+      } else {
+        alert('Failed to generate the report');
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>Playwright Test Report</h1>
+  <button onclick="fetchReport()">Generate Test Report</button>
+</body>
+</html>

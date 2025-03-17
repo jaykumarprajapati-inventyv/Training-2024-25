@@ -1,0 +1,90 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "saucedemo-shopping-cart;user-adds-items-to-the-cart-and-completes-checkout",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User adds items to the cart and completes checkout",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the SauceDemo inventory page",
+            "match": {
+              "location": "features\\step-definitions\\inventory.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7371549100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I add items to the cart",
+            "match": {
+              "location": "features\\step-definitions\\inventory.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1660788200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "features\\step-definitions\\inventory.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1695146399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I fill in the user details",
+            "match": {
+              "location": "features\\step-definitions\\inventory.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4243043700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I complete the purchase",
+            "match": {
+              "location": "features\\step-definitions\\inventory.js:39"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30014216099,
+              "error_message": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'FINISH' }) to be visible\u001b[22m\n\n    at World.<anonymous> (D:\\Inventyv\\Tasks\\Training-2024-25\\Gherkins with Nodejs\\playwright-gherkin-mongo\\features\\step-definitions\\inventory.js:46:22)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "saucedemo-shopping-cart",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "SauceDemo Shopping Cart",
+    "tags": [],
+    "uri": "features\\step-definitions\\inventory.feature"
+  }
+]
