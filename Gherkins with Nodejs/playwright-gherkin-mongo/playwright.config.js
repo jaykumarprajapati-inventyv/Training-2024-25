@@ -1,19 +1,4 @@
-// const { defineConfig, devices } = require('@playwright/test');
 
-// module.exports = defineConfig({
-//   projects: [
-//     {
-//       name: 'playwright tests',
-//       use: { ...devices['Desktop Chrome'] }, 
-//       testDir: './features',
-//     },
-//   ],
-//   reporter: [
-//     ['html', { outputFolder: 'reports/playwright-report', open: 'never' }],
-//   ],
-//   timeout: 30000, 
-// });
-// playwright.config.js
 const { defineConfig, devices } = require('@playwright/test');
 
 module.exports = defineConfig({
@@ -21,11 +6,11 @@ module.exports = defineConfig({
     {
       name: 'playwright tests',
       use: { ...devices['Desktop Chrome'] },
-      testDir: './features', // Your test directory containing feature files
+      testDir: './features', 
     },
   ],
   reporter: [
-    ['html', { outputFolder: 'reports/playwright-report', open: 'never' }], // HTML report generation
+    ['html', { outputFolder: 'reports/playwright-report', open: 'never' }], 
   ],
-  timeout: 30000, // Adjust timeout if needed
+  timeout: 30000, 
 });

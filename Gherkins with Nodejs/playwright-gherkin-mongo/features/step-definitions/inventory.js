@@ -3,16 +3,16 @@ const { chromium } = require('playwright');
 
 let browser, page;
 
-// Increase default timeout for all steps
-setDefaultTimeout(60000); // Set 60 seconds timeout
+
+setDefaultTimeout(60000); 
 
 Given('I open the SauceDemo inventory page', async function () {
   browser = await chromium.launch({ headless: false, slowMo: 500 });
   page = await browser.newPage();
   
-  // Wait until page fully loads before proceeding
+  
   await page.goto('https://www.saucedemo.com/v1/inventory.html', { waitUntil: 'load' });
-  await page.waitForLoadState('networkidle'); // Ensure all network requests are done
+  await page.waitForLoadState('networkidle'); 
 });
 
 When('I add items to the cart', async function () {
@@ -37,14 +37,14 @@ When('I fill in the user details', async function () {
 });
 
 Then('I complete the purchase', async function () {
-  // Wait for the page to be fully loaded
+  
   await page.waitForLoadState('networkidle');
 
-  // Ensure the button is visible and enabled before clicking
+  
   const finishButton = page.getByRole('button', { name: 'FINISH' });
 
   await finishButton.waitFor({ state: 'visible', timeout: 30000 }); 
-  await finishButton.click(); // Click on Finish
+  await finishButton.click();
 
   console.log("Purchase completed successfully!");
 
