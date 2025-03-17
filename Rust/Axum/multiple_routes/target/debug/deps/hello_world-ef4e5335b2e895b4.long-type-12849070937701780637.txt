@@ -1,0 +1,1 @@
+fn(Query<QueryResponses>) -> impl Future<Output = axum::Json<QueryResponses>> {query_parameters}
