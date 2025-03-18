@@ -6,12 +6,11 @@ use tokio::net::TcpListener;
 mod middlewares;
 mod models;
 mod router;
-use handlers::{registeration::register_user, user_login::login};
+use handlers::{registeration::register_user, user_login::login,user_dashboard::user_dashboard_handler};
 mod handlers;
 mod jwt_utils;
 
 /* For database */
-use crate::handlers::protected_handler::protected_handler;
 use crate::middlewares::auth_middleware::auth_middleware;
 use dotenv::dotenv;
 use sqlx::mysql::MySqlPool;

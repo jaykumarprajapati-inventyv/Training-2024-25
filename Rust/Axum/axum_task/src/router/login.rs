@@ -17,7 +17,7 @@ pub async fn login_authentication(
 
     match user {
         Ok(Some(user)) if user.password == payload.password => {
-            let token = generate_token(&user.email);
+            let token = generate_token(&user.email,&pool).await;
             Json(serde_json::json!({ "message": "Login Successful!", "token": token }))
         }
         _ => Json(serde_json::json!({ "message": "Invalid email or password" })),
