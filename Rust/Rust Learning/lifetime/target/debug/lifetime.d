@@ -1,1 +1,0 @@
-D:\Inventyv\Tasks\Training-2024-25\Rust\Rust\ Learning\lifetime\target\debug\lifetime.exe: D:\Inventyv\Tasks\Training-2024-25\Rust\Rust\ Learning\lifetime\src\main.rs D:\Inventyv\Tasks\Training-2024-25\Rust\Rust\ Learning\lifetime\src\solu1_by_static.rs D:\Inventyv\Tasks\Training-2024-25\Rust\Rust\ Learning\lifetime\src\solu2_lifetime.rs

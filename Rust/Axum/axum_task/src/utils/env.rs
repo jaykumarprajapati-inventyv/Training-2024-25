@@ -5,19 +5,19 @@ use dotenvy::dotenv;
 
 const SECRET_KEY: &str = "mysupersecuresecretkey1234567890!";
 
-/// Function to check if `.env` file has `SECRET_KEY`, otherwise set a predefined one
+
 pub fn init_secret_key() {
-    dotenv().ok(); // Load existing .env file if present
+    dotenv().ok(); 
 
     let env_path = ".env";
     if Path::new(env_path).exists() {
         let content = fs::read_to_string(env_path).unwrap_or_default();
         if content.contains("SECRET_KEY=") {
-            return; // Secret key already exists, no need to overwrite
+            return; 
         }
     }
 
-    // Write the predefined secret key
+   
     let mut file = fs::OpenOptions::new()
         .create(true)
         .append(true)

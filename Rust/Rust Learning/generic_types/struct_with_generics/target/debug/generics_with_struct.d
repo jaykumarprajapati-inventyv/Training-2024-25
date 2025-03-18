@@ -1,1 +1,0 @@
-D:\Inventyv\Tasks\Training-2024-25\Rust\Rust\ Learning\generic_types\struct_with_generics\target\debug\generics_with_struct.exe: D:\Inventyv\Tasks\Training-2024-25\Rust\Rust\ Learning\generic_types\struct_with_generics\src\main.rs

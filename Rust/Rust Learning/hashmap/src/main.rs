@@ -52,5 +52,4 @@ fn main() {
 
 }
 
-//alag dtype val
-//rno vadhare to name pasi
+

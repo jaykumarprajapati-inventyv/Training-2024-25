@@ -8,7 +8,7 @@ use tokio::net::TcpListener;
 pub struct LoginCredentials {
     username: String,
     password: String,
-    email:Option<String> //If we're not passing "email" though it'll sucsess because its option
+    email:Option<String> //If we're not passing "email", though it'll sucsess because its option
 }
 #[tokio::main]
 async fn main() {
